@@ -1,3 +1,31 @@
+body {
+    font-family: 'Roboto';
+    background-color: #F5C57B;
+}
+
 h1 {
  color: blueviolet;
+}
+
+footer{
+    background-color: #545454;
+}
+
+.row {
+    background-color: aqua;
+}
+
+.main-header {
+    background-color: #545454;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #e2e2e2;
+}
+
+.navbar-toggler {
+    border-color:black;
+}
+
+a {
+    color: #e2e2e2 !important;
 }
