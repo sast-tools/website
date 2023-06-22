@@ -64,3 +64,34 @@ a:hover{
     border-color: #fec76e;
     color: #252423;
 }
+
+.main-info {
+    background-color: #f6f4f2;
+    color: #252423;
+}
+
+.main-info > div > div > div {
+    padding: 100px 100px 100px 100px;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+footer > div > div > div > a > img  {
+    height: 40px;
+}
+
+footer{
+    padding: 100px 100px 100px 200px;
+}
+
+ul{
+    list-style-type: none;  
+}
+
+footer > div > div > div >  ul > li > a:hover {
+    text-decoration: none;
+}
+
+#title {
+    padding-bottom: 10px;
+}
