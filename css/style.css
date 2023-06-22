@@ -1,31 +1,66 @@
-body {
-    font-family: 'Roboto';
-    background-color: #F5C57B;
-}
-
-h1 {
- color: blueviolet;
-}
-
-footer{
-    background-color: #545454;
-}
-
-.row {
-    background-color: aqua;
+html, body {
+    font-family: 'Rubik', sans-serif;;
+    background-color: #252423;
+    color: #f6f4f2;
 }
 
 .main-header {
-    background-color: #545454;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 5px solid #e2e2e2;
 }
 
 .navbar-toggler {
     border-color:black;
 }
 
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.brand-name > a > img  {
+    height: 40px;
+}
+
 a {
-    color: #e2e2e2 !important;
+    color: #F6F4F2;
+}
+
+a:hover{
+    color: #fec76e;    
+}
+
+.main-page > div > div > h1 {
+    font-size: 60px;
+}
+
+.main-page {
+    padding: 100px 100px 100px 100px;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
+  .main-page > div > div > p > span{
+    text-decoration:underline wavy #ff866a
+}
+
+.btn{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #747474;
+    border-style: dashed;
+    color:#dadada;
+}
+
+.btn-primary:hover {
+    background-color: #fec76e;
+    border-color: #fec76e;
+    color: #252423;
 }
