@@ -85,7 +85,7 @@ footer > div > div > div > a > img  {
 }
 
 footer{
-    padding: 100px 100px 100px 200px;
+    padding: 100px 100px 50px 100px;
 }
 
 ul{
@@ -98,4 +98,18 @@ footer > div > div > div >  ul > li > a:hover {
 
 #title {
     padding-bottom: 10px;
+}
+
+#footer {
+    text-align: right;
+    padding-top: 70px;
+}
+
+#footer > a {
+    color: #fec76e;
+}
+
+#footer > a:hover {
+    color: #f6f4f2;
+    text-decoration: none;
 }
