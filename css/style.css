@@ -39,11 +39,11 @@ a:hover{
 }
 
 .ml2 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 3.5em;
   }
 
-  .main-page > div > div > p > span{
+.main-page > div > div > p > span{
     text-decoration:underline wavy #ff866a
 }
 
@@ -70,9 +70,13 @@ a:hover{
     color: #252423;
 }
 
+#sast {
+    font-size: 14px;
+}
+
 .main-info > div > div > div {
     padding: 100px 100px 100px 100px;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 2em;
 }
 
