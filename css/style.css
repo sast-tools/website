@@ -113,3 +113,57 @@ footer > div > div > div >  ul > li > a:hover {
     color: #f6f4f2;
     text-decoration: none;
 }
+
+.github-link{
+    margin-top: 19px;
+    height: 35px;
+}
+
+.search-box {
+    background: rgb(115, 115, 115);
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #fec76e;
+    text-decoration: none;
+    color:#252423;
+}
+
+.search-btn{
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    float: left;
+    padding: 0;
+    margin-top: 10px;
+    color:#f6f4f2;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height:  20px;
+    width: 0px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f6f4f2;
+    opacity: 1; /* Firefox */
+  }
